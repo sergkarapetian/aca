@@ -12,8 +12,7 @@ submit.setAttribute("type", "submit");
 submit.classList.add("submit");
 header.append(submit);
 submit.disabled = true;
-// submit.style.display = "none"
-//////////////////////////////////////////////////////////////////////////////
+
 let mainDiv = document.getElementById("mainDiv");
 let table = document.createElement("table");
 
