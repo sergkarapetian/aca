@@ -17,7 +17,7 @@ let mainDiv = document.getElementById("mainDiv");
 let table = document.createElement("table");
 
 input.addEventListener("input", () => {
-  if (input.value.length > 0) {
+  if (input.value.trim().length > 0) {
     submit.disabled = false;
     submit.style.display = "block"
     submit.addEventListener("click", () => {
